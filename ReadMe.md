@@ -28,7 +28,7 @@ I have been using android studio for a long time so I didn't have any problem se
 
 ### Application Opeaned.
 ![image](https://drive.google.com/uc?export=view&id=16AK_fhb8mx1QHYGhQL92dzLPGGX7Wvb8)
-### Application running into background(Home button pressed.)
+### Application running in background(Home button pressed.)
 ![image](https://drive.google.com/uc?export=view&id=1cWU0pviS57cVgIMEkB12y_XMIFxrlMwI)
 ### Application coming into foreground.
 ![image](https://drive.google.com/uc?export=view&id=1rNQhjNj9gV11SzVG2pjJlGpCgE_80kKd)
