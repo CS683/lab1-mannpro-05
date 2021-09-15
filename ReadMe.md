@@ -16,8 +16,8 @@ I have been using android studio for a long time so I didn't have any problem se
 | Actions                                       | Callback functions called in order.      |
 |-----------------------------------------------|------------------------------------------|
 | Open the app                                  | onCreate() -> onResume().                |
-| App going in background(Pressing home button) | onPause() -> onStop().                   |
-| App coming in foreground                      | onRestart() -> onCreate() -> onResume(). |
+| App going into background(Pressing home button) | onPause() -> onStop().                   |
+| App coming into foreground                      | onRestart() -> onCreate() -> onResume(). |
 | Pressing back button.                         | onPause() -> onStop() -> onDestroy().    |
 | Closing the app.                              | onPause() -> onStop() -> onDestroy().    |
 
