@@ -4,7 +4,7 @@
 
 ## The Github link 
 
-[https://github.com/CS683/lab1-mannpro-05]()
+[https://github.com/CS683/lab1-mannpro-05](https://github.com/CS683/lab1-mannpro-05)
 
 ## Set up Android Studio and git/Github.
 
