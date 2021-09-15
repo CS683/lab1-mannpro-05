@@ -17,9 +17,12 @@ I have been using android studio for a long time so I didn't have any problem se
 |-----------------------------------------------|------------------------------------------|
 | Open the app                                  | onCreate() -> onResume().                |
 | App going into background(Pressing home button) | onPause() -> onStop().                   |
-| App coming into foreground                      | onRestart() -> onCreate() -> onResume(). |
+| App coming in foreground                      | onRestart() -> onCreate() -> onResume(). |
+| Rotating the screen| onPause() -> onStop() -> onDestroy() -> onCreate() -> onResume(). |
+| Changing app. | onPause() -> onStop().                   |
 | Pressing back button.                         | onPause() -> onStop() -> onDestroy().    |
 | Closing the app.                              | onPause() -> onStop() -> onDestroy().    |
+
 
 # Screenshots
 
@@ -32,7 +35,11 @@ I have been using android studio for a long time so I didn't have any problem se
 ![image](https://drive.google.com/uc?export=view&id=1cWU0pviS57cVgIMEkB12y_XMIFxrlMwI)
 ### Application coming into foreground.
 ![image](https://drive.google.com/uc?export=view&id=1rNQhjNj9gV11SzVG2pjJlGpCgE_80kKd)
+### Rotating the screen
+![image](https://drive.google.com/uc?export=view&id=1kFBSmWkTVJ7peaCuEvy-fW8KjQog2cSi)
 ### Back button pressed.
 ![image](https://drive.google.com/uc?export=view&id=12iWNB9611aTztZoBVltcO1bRtqrHZLYn)
+### Changing app
+![image](https://drive.google.com/uc?export=view&id=1SVoiWLJ4qn15Q7v04oZXCQYwZ-zjf9Td)
 ### Application Closed.
 ![image](https://drive.google.com/uc?export=view&id=1dQj3HEPuviAQimGmaacd7B7iB5qn_8yA)
